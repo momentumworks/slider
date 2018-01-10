@@ -109,6 +109,7 @@ export default function createSlider(Component) {
       this.removeDocumentEvents();
       this.onStart(position);
       this.addDocumentMouseEvents();
+      this.focus();
       utils.pauseEvent(e);
     }
 
