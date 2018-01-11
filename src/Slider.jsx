@@ -56,9 +56,9 @@ class Slider extends React.Component {
     if (nextValue === prevValue) return;
 
     this.setState({ value: nextValue });
-    if (utils.isValueOutOfRange(value, nextProps)) {
-      this.props.onChange(nextValue);
-    }
+    // if (utils.isValueOutOfRange(value, nextProps)) {
+    //   this.props.onChange(nextValue);
+    // }
   }
 
   onChange(state) {

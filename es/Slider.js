@@ -57,9 +57,9 @@ var Slider = function (_React$Component) {
     if (nextValue === prevValue) return;
 
     this.setState({ value: nextValue });
-    if (utils.isValueOutOfRange(value, nextProps)) {
-      this.props.onChange(nextValue);
-    }
+    // if (utils.isValueOutOfRange(value, nextProps)) {
+    //   this.props.onChange(nextValue);
+    // }
   };
 
   Slider.prototype.onChange = function onChange(state) {
